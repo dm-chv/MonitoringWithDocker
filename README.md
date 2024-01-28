@@ -22,7 +22,7 @@ sudo apt install docker docker.io docker-compose
 |config.my-cnf            | password | Пароль для подключения mysqld_exporter к MariaDB|
 |config.my-cnf            | host | Хост базы данных|
 |exporter.sql             | Создаваемый пользователь должен быть таким, как в файле config.my-cnf ||
-|nginx.conf               | Возможна смена стандартного http порта и проксирование запросов на другой адрес || 
+|nginx.conf               | Возможна смена стандартного http порта и проксирование запросов на другой адрес ||
 |prometheus.yml           | Возможна смена или добавление других источников данных ||
 
 ## Описание файлов
@@ -37,7 +37,7 @@ sudo apt install docker docker.io docker-compose
 
 ## Описание docker-compose.yaml
 
-Данный файл содержит в себе описание установки шести доекер контейнеров:
+*Данный файл содержит в себе описание установки шести доекер контейнеров:*
 
 * prometheus - сборщик метрик.
 * grafana - постороение графиков на основе данных из prometheus.
