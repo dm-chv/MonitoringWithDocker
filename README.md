@@ -21,9 +21,9 @@ sudo apt install docker docker.io docker-compose
 |config.my-cnf            | user | Имя пользователя для подключения mysqld_exporter к MariaDB|
 |config.my-cnf            | password | Пароль для подключения mysqld_exporter к MariaDB|
 |config.my-cnf            | host | Хост базы данных|
-|exporter.sql             | Создаваемый пользователь должен быть таким, как в файле config.my-cnf|
-|nginx.conf               | Возможна смена стандартного http порта и проксирование запросов на другой адрес|
-|prometheus.yml           | Возможна смена или добавление других источников данных|
+|exporter.sql             | Создаваемый пользователь должен быть таким, как в файле config.my-cnf ||
+|nginx.conf               | Возможна смена стандартного http порта и проксирование запросов на другой адрес || 
+|prometheus.yml           | Возможна смена или добавление других источников данных ||
 
 ## Описание файлов
 
